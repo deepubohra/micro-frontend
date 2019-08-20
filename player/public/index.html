@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Video Player</title>
+</head>
+
+<body>
+  <main id="container"></main>
+  <script src="%REACT_APP_CONTENT_HOST%/react.prod-16.8.6.min.js"></script>
+  <script src="%REACT_APP_CONTENT_HOST%/react-dom.prod-16.8.6.min.js"></script>
+  <script type="text/javascript">
+    window.onload = () => {
+      window.renderPlayer('container');
+    };
+  </script>
+</body>
+
+</html>
